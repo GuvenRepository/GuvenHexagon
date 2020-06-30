@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -102,7 +103,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 26b9d7f00b2969e1a21f6ab978ed9647
+      Hash: d025ff1e72decfcfcff71f18c70f3a1d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: gameManager
@@ -535,4 +536,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/guvenluckyboy/Documents/Unity/HexagonGuven/HexagonGuven.apk
+  playerPath: C:/Users/guvenluckyboy/Documents/GitHub/GuvenHexagon/HexagonGuven/HexagonGuven.apk

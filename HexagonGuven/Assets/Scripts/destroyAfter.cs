@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destroyAfter : MonoBehaviour
 {
-
+    //Particle effects will die after 3 seconds
     void Start()
     {
         StartCoroutine(destroyAfterSeconds(3));

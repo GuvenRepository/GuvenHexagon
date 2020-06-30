@@ -8,6 +8,7 @@ public class touchScreenControllers : MonoBehaviour
     Vector2 secondPressPos;
     Vector2 currentSwipe;
 
+    //Variables we will need on gameMeanager
     public static bool touch = false;
     public static bool upSwipe = false;
     public static bool downSwipe = false;
@@ -16,6 +17,7 @@ public class touchScreenControllers : MonoBehaviour
 
     private void Update()
     {
+        //reset
         touch = false;
         upSwipe = false;
         downSwipe = false;
@@ -34,6 +36,7 @@ public class touchScreenControllers : MonoBehaviour
                 //save ended touch 2d point
                 secondPressPos = new Vector2(t.position.x, t.position.y);
 
+                //if distance begin end end touches are close, iti is a touch
                 if (Vector2.Distance(firstPressPos, secondPressPos) < 50)
                 {
                     touch = true;

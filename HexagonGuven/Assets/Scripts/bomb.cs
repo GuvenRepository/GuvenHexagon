@@ -14,12 +14,15 @@ public class bomb : MonoBehaviour
     }
     private void Update()
     {
+        //bomb always looks up
+        //even in rotation animations
         transform.up = Vector3.up;
     }
     public uint getCount()
     {
         return count;
     }
+    //Decrease count and update on the screen
     public void decreaseCount()
     {
         count--;
